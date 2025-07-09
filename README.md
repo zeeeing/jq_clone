@@ -1,19 +1,26 @@
-# Project for CSE3100 Functional Programming course at TU Delft
+# Haskell `jq` Clone – CSE3100 Functional Programming (TU Delft)
 
-A clone of `jq` built with the Haskell programming language.
+This project is a simplified clone of [`jq`](https://jqlang.org/), a powerful command-line JSON processor, built using the **Haskell programming language** as part of the **CSE3100 Functional Programming** course at **TU Delft**.
 
-If interested, you can find a full description of the assignment in ASSIGNMENT.md.
+📌 **Final Score:** 77 / 100 (does not include all functionalites
 
-## Use
+## 📄 Assignment
+
+The full assignment specification can be found in [`ASSIGNMENT.md`](./ASSIGNMENT.md).
+
+## ⚠️ Note on Functionality
+
+This implementation delivers a comprehensive subset of the assignment’s core features. While it robustly supports key functionalities, some advanced requirements and edge cases from the full specification remain outside the current scope.
+
+## 🚀 Usage
+
+To run the program and query a JSON string:
 
 ```bash
 echo '{"this" : "that"}' | cabal run -- '.this'
 ```
 
-## Try `jq` online
+## 🌐 References
 
-[play.jqlang.org](https://play.jqlang.org/)
-
-## Learn more about `jq`
-
-[jqlang.org/manual](https://jqlang.org/manual/)
+- [Try jq online](https://play.jqlang.org/)
+- [jq manual](https://jqlang.org/manual/)
