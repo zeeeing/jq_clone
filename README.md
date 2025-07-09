@@ -2,7 +2,8 @@
 
 This project is a simplified clone of [`jq`](https://jqlang.org/), a powerful command-line JSON processor, built using the **Haskell programming language** as part of the **CSE3100 Functional Programming** course at **TU Delft**.
 
-📌 **Final Score:** 77 / 100 (does not include all functionalites
+📌 **Final Score:** 77 / 100
+*The score reflects a strong implementation of core features, with some advanced functionalities left for future development.*
 
 ## 📄 Assignment
 
