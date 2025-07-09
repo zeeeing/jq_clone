@@ -1,20 +1,8 @@
-# Project for FP course at TU Delft
+# Project for CSE3100 Functional Programming course at TU Delft
 
-A clone of `jq` in Haskell. You will find week-by-week description of the task on Brightspace. Full description is ASSIGNMENT.md.
+A clone of `jq` built with the Haskell programming language.
 
-## Build
-
-```bash
-cabal build
-```
-
-## Test
-
-```bash
-cabal test
-```
-
-You will need `jq` installed and available on `$PATH` to run `from-upstream` test suite.
+If interested, you can find a full description of the assignment in ASSIGNMENT.md.
 
 ## Use
 
@@ -26,6 +14,6 @@ echo '{"this" : "that"}' | cabal run -- '.this'
 
 [play.jqlang.org](https://play.jqlang.org/)
 
-## Docs
+## Learn more about `jq`
 
 [jqlang.org/manual](https://jqlang.org/manual/)
